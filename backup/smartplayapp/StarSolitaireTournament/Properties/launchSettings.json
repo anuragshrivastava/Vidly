@@ -1,0 +1,48 @@
+{
+  "profiles": {
+    "StarSolitaireTournament": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:443;http://localhost:80",
+        "ASPNETCORE_HTTPS_PORT": "443",
+        "DATABASE_HOST": "localhost",
+        "DATABASE_PORT": "5432",
+        "DATABASE_USERNAME": "postgres",
+        "DATABASE_PASSWORD": "IOwoi344efwD",
+        "DATABASE_NAME": "StarSolitaire",
+        "IS_TO_TEST_GAME_SERVER": "true",
+        "ISSUER": "Star Solitaire 38hf",
+        "AUDIENCE": "Star Solitaire Users 38hf",
+        "SECURITY_KEY_VALUE": "Star Solitaire security key! 38hf"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7123;http://localhost:5256"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchBrowser": true,
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}/swagger",
+      "publishAllPorts": true,
+      "useSSL": true
+    }
+  },
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:49633",
+      "sslPort": 44339
+    }
+  }
+}
+//certificate password : femfeiofnji)#J)R344
